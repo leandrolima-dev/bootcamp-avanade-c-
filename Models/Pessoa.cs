@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+//POO - Abstração
 namespace exemplo_poo.Models
 {
     public class Pessoa
     {
         public string? Nome { get; set; }
         public int Idade { get; set; }
+        public string? Email { get; set; }
 
         public void Apresentar()
 
         {
-            Console.WriteLine($"Meu nome é {Nome} e, tenho {Idade} anos");
+            Console.WriteLine($"Meu nome é {Nome}, e tenho {Idade} anos");
+            Console.WriteLine($"e-mail: {Email}\n------------------------------------------");
         }
     }
 }

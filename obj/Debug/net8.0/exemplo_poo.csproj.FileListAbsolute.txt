@@ -12,3 +12,4 @@ C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net
 C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.pdb
 C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.genruntimeconfig.cache
 C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\ref\exemplo_poo.dll
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.sourcelink.json

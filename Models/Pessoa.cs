@@ -12,8 +12,8 @@ namespace exemplo_poo.Models
         public int Idade { get; set; }
         public string? Email { get; set; }
 
-        public void Apresentar()
-
+//POO - Herança/ Polimorfismo
+        public virtual void Apresentar()
         {
             Console.WriteLine($"Meu nome é {Nome}, e tenho {Idade} anos");
             Console.WriteLine($"e-mail: {Email}\n------------------------------------------");

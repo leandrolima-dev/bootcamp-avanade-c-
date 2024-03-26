@@ -19,12 +19,14 @@ internal class Program
     aluno.Idade = 38;
     aluno.Nome = "Leandro";
     aluno.Email = "aluno@example.com";
+    aluno.Nota = 10;
     aluno.Apresentar();
 
     Professor professor = new();
     professor.Idade = 38;
     professor.Nome = "Leonardo";
     professor.Email = "professor@example.com";
+    professor.Salario = 2000;
     professor.Apresentar();
   }
 }

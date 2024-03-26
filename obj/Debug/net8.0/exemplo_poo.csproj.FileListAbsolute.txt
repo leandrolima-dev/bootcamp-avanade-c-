@@ -1,0 +1,14 @@
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\bin\Debug\net8.0\exemplo_poo.exe
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\bin\Debug\net8.0\exemplo_poo.deps.json
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\bin\Debug\net8.0\exemplo_poo.runtimeconfig.json
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\bin\Debug\net8.0\exemplo_poo.dll
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\bin\Debug\net8.0\exemplo_poo.pdb
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.AssemblyInfoInputs.cache
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.AssemblyInfo.cs
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.csproj.CoreCompileInputs.cache
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.dll
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\refint\exemplo_poo.dll
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.pdb
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\exemplo_poo.genruntimeconfig.cache
+C:\Users\lspli\programacao\DIO - Pro\Avanade - C# .NET\exemplo_poo\obj\Debug\net8.0\ref\exemplo_poo.dll

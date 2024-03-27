@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 namespace exemplo_poo.Models
 {
     //Sealed - Classe Professor herda de Pessoa, mas não pode ser herdada devido a palavra reservada "sealed"
-    public sealed class Professor : Pessoa
+    // public sealed class Professor : Pessoa
+    public class Professor : Pessoa
     {
         //Construtor herdado da classe Pessoa
 
@@ -16,7 +17,8 @@ namespace exemplo_poo.Models
 
         public decimal Salario { get; set; }
         //POO - Herança/ Polimorfismo
-        public override void Apresentar()
+        //Metodo selado com o modificador "sealed", nenhuma classe filha pode sobrescrever esse método
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Meu nome é {Nome}, e tenho {Idade} anos!\nSalario: {Salario.ToString("F2")}");
             Console.WriteLine($"e-mail: {Email}\n------------------------------------------");

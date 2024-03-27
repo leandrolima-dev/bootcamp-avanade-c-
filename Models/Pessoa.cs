@@ -9,10 +9,10 @@ namespace exemplo_poo.Models
     public class Pessoa
     {
         //POO - Herança do construtor para as classes filhas
-        public Pessoa(string nome)
-        {
-            Nome = nome;
-        }
+        // public Pessoa(string nome)
+        // {
+        //     Nome = nome;
+        // }
         public string? Nome { get; set; }
         public int Idade { get; set; }
         public string? Email { get; set; }

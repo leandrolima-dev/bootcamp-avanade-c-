@@ -44,13 +44,13 @@ internal class Program
     // aluno.Apresentar();
 
     //Classe não pode ser instanciada, pois Diretor herda de Professor, mas não pode ser herdada devido a palavra reservada "sealed"
-    Diretor diretor = new Diretor
-    {
-        Idade = 38,
-        Nome = "Leandro",
-        Email = "leandro@example.com",
-        Salario = 2000
-    };
-    diretor.Apresentar();
+  //   Diretor diretor = new Diretor
+  //   {
+  //       Idade = 38,
+  //       Nome = "Leandro",
+  //       Email = "leandro@example.com",
+  //       Salario = 2000
+  //   };
+  //   diretor.Apresentar();
   }
 }

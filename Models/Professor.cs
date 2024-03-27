@@ -7,7 +7,13 @@ namespace exemplo_poo.Models
 {
     public class Professor : Pessoa
     {
-        public decimal Salario {get; set;}
+        //Construtor herdado da classe Pessoa
+
+        public Professor(string nome) : base(nome)
+        {
+        }
+
+        public decimal Salario { get; set; }
         //POO - Herança/ Polimorfismo
         public override void Apresentar()
         {

@@ -8,7 +8,12 @@ namespace exemplo_poo.Models
 {
     public class Aluno : Pessoa
     {
-        public decimal Nota {get; set;}
+        //Construtor herdado da classe Pessoa
+        public Aluno(string nome) : base(nome)
+        {
+        }
+
+        public decimal Nota { get; set; }
         //POO - Herança/ Polimorfismo
         public override void Apresentar()
         {

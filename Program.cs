@@ -29,8 +29,19 @@ internal class Program
     // professor.Salario = 2000;
     // professor.Apresentar();
 
-    Corrente corrente = new();
-    corrente.Creditar(2000);
-    corrente.ExibirSaldo();
+    // Corrente corrente = new();
+    // corrente.Creditar(2000);
+    // corrente.ExibirSaldo();
+
+    //Instanciando um objeto de uma classe
+    Aluno aluno = new("")
+    {
+      Nome = "Leandro",
+      Idade = 38,
+      Nota = 10,
+      Email = "aluno@example.com"
+    };
+    aluno.Apresentar();
+
   }
 }

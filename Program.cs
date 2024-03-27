@@ -1,4 +1,5 @@
 ﻿
+using exemplo_poo.Interfaces;
 using exemplo_poo.Models;
 
 internal class Program
@@ -53,7 +54,17 @@ internal class Program
     //   };
     //   diretor.Apresentar();
 
-    ObjectExemplo obj = new();
-    Console.WriteLine(obj.ToString());
+    //Instanciando e sobrescravendo o método ToString()
+    // ObjectExemplo obj = new();
+    // Console.WriteLine(obj.ToString());
+
+    //Instanciando um objeto de uma classe, via interface
+    // ICalculadora calculadora = new Calculadora();
+    
+    Calculadora calculadora = new();
+    Console.WriteLine($"10 / 2 = {calculadora.Dividir(10, 2)}");
+    Console.WriteLine($"10 * 2 = {calculadora.Multiplicar(10, 2)}");
+    Console.WriteLine($"10 + 2 = {calculadora.Somar(10, 2)}");
+    Console.WriteLine($"10 - 2 = {calculadora.Subtrair(10, 2)}");
   }
 }

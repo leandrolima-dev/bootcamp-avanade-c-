@@ -5,14 +5,13 @@ using System.Threading.Tasks;
 
 namespace exemplo_poo.Models
 {
-    //Sealed - Classe Professor herda de Pessoa, mas não pode ser herdada devido a palavra reservada "sealed"
-    public sealed class Professor : Pessoa
+    public class Professor : Pessoa
     {
         //Construtor herdado da classe Pessoa
 
-        // public Professor(string nome) : base(nome)
-        // {
-        // }
+        public Professor(string nome) : base(nome)
+        {
+        }
 
         public decimal Salario { get; set; }
         //POO - Herança/ Polimorfismo

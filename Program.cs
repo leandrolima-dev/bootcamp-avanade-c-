@@ -33,24 +33,15 @@ internal class Program
     // corrente.Creditar(2000);
     // corrente.ExibirSaldo();
 
-    //Instanciando um objeto de uma classe, de forma direta 
-    // Aluno aluno = new("")
-    // {
-    //   Nome = "Leandro",
-    //   Idade = 38,
-    //   Nota = 10,
-    //   Email = "aluno@example.com"
-    // };
-    // aluno.Apresentar();
-
-    //Classe não pode ser instanciada, pois Diretor herda de Professor, mas não pode ser herdada devido a palavra reservada "sealed"
-    Diretor diretor = new Diretor
+    //Instanciando um objeto de uma classe
+    Aluno aluno = new("")
     {
-        Idade = 38,
-        Nome = "Leandro",
-        Email = "leandro@example.com",
-        Salario = 2000
+      Nome = "Leandro",
+      Idade = 38,
+      Nota = 10,
+      Email = "aluno@example.com"
     };
-    diretor.Apresentar();
+    aluno.Apresentar();
+
   }
 }
